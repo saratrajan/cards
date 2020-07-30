@@ -3,3 +3,8 @@ language: go
 image: go:latest  
 script:
   - go build
+
+image: node:latest
+script:
+  - npm login --registry=https://npm.pkg.github.com/
+  - npm publish

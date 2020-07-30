@@ -11,6 +11,7 @@
     "url": "git+https://github.com/saratrajan/cards.git"
   },
   "author": "Sarat Rajan",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" } ,
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/saratrajan/cards/issues"
