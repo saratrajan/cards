@@ -1,0 +1,5 @@
+language: go
+
+image: go:latest  
+script:
+  - go build
