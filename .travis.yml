@@ -1,4 +1,9 @@
 language: go
+
+stages:
+  - build
+  - publish
+
 jobs:
 include:
   - stage: build 
